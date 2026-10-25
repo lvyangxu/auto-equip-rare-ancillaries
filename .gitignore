@@ -1,0 +1,15 @@
+# --- Development scratch & extracted game content ---
+# tools/ contains Lua scripts and replays extracted from the game packs
+# (copyrighted, and ~68 MB). Track only the Python helper scripts there and
+# ignore everything else under tools/.
+tools/*
+!tools/*.py
+
+# Python caches
+__pycache__/
+*.pyc
+
+# OS / editor cruft
+Thumbs.db
+desktop.ini
+.DS_Store
